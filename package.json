@@ -19,7 +19,10 @@
   "homepage": "https://github.com/aiqingr/blog-with-nodejs-and-mysql#readme",
   "dependencies": {
     "body-parser": "^1.17.1",
-    "express": "^4.15.2"
+    "express": "^4.15.2",
+    "morgan": "^1.8.1",
+    "mysql": "^2.13.0",
+    "sequelize": "^3.30.4"
   },
   "devDependencies": {
     "nodemon": "^1.11.0"
