@@ -11,4 +11,5 @@ module.exports = (app) => {
   app.get('api/todos/:todoId', todosController.retrieve);
   app.put('api/todos/:todoId', todosController.update);
   app.post('/api/todos/:todoId/items', todoItemsController.create);
+  app.delete('api/todos/:todoId', todosController.delete);
 };
