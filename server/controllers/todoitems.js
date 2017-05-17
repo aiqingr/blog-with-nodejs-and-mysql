@@ -22,7 +22,7 @@ module.exports = {
       .then(todoItem => {
         if(!todoItem) {
           return res.status(404).send({
-            message: 'TodoItem Not Found'.
+            message: 'TodoItem Not Found'
           });
         }
         return todoItem
